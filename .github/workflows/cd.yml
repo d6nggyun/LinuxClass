@@ -12,7 +12,7 @@ jobs:
     
     steps: 
       - name: Delete Docker Image and Containers 
-        run: sudo docker rm -f steem3246 
+        run: sudo docker rm -f dongkyun
       - name: Pull Docker Image from Docker hub 
         run: sudo docker pull steem3246/songdo:latest 
       - name: Execute Docker Container 
